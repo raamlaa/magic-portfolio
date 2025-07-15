@@ -1,25 +1,26 @@
 import { Logo } from "@once-ui-system/core";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Ramla",
+  lastName: "Azouni",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Project Manager & Content Strategist",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  email: "ramlaazouni@outlook.com",
+  location: "Africa/Tunis", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Arabic","French"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
-  display: true,
+  display: false,
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+      🎮 Gaming YouTuber | 🚀 Project Manager @ TAWA | 👩‍💻 Creative Technologist
+      Hey, Im Ramla. A storyteller, strategist, and builder at the intersection of tech and creativity.
+
     </>
   ),
 };
@@ -30,18 +31,14 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/raamlaa",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/raamlaa",
   },
-  {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
-  },
+
   {
     name: "Email",
     icon: "email",
@@ -83,16 +80,15 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://cal.com/raamlaa/30min",
   },
   intro: {
     display: true,
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+      🎮 Gaming YouTuber | 🚀 Project Manager @ TAWA | 👩‍💻 Creative Technologist
+      Hey, Im Ramla. A storyteller, strategist, and builder at the intersection of tech and creativity.
       </>
     ),
   },
@@ -101,33 +97,69 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: (
+          <a href="https://www.youtube.com/@KoussayBiz" target="_blank" rel="noopener noreferrer">
+            KoussayBiz
+          </a>
+        ),
+        timeframe: "06/2025 - Present",
+        role: "Content Lead",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Turned raw ideas, scripts, and footage into high-performing, platform-native content. I lead Short and Long content strategy, organize creator assets, pitch concepts and series And write hooks and captions.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Guided the editorial flow from ideation to publishing all while aligning with the creator’s voice and growth goals.
           </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
+          // {
+          //   // src: "/images/projects/project-01/cover-01.jpg",
+          //   // alt: "Once UI Project",
+          //   // width: 16,
+          //   // height: 9,
+          // },
+        ],
+      },
+
+
+
+      {
+        company: (
+          <a href="https://www.tawa.digital" target="_blank" rel="noopener noreferrer">
+            TAWA Digital Talents
+          </a>
+        ),
+        timeframe: "11/2024 - Present",
+        role: "Project Manager",
+        achievements: [
+          <>
+            Designed and developed key features for "Content Factory," including the UGC Creator Toolbox, the platform’s first AI-powered 
+Media Kit, and the Highlighted Creators module. 
+          </>,
+          <>
+            Led independent projects like the Samy Chaffai Masterclass and the TAWA agency website.
+          </>,
+        ],
+        images: [
+          // optional: leave the array empty if you don't want to display images
+          // {
+          //   // src: "/images/projects/project-01/cover-01.jpg",
+          //   // alt: "Once UI Project",
+          //   // width: 16,
+          //   // height: 9,
+          // },
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: (
+          <a href="https://www.youtube.com/@aburob" target="_blank" rel="noopener noreferrer">
+            Aburob's Productions
+          </a>
+        ),
+        timeframe: "07/2024 - 08/2024",
+        role: "Content Researcher",
         achievements: [
           <>
             Developed a design system that unified the brand across multiple platforms, improving
@@ -147,59 +179,56 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "University of Tunis El Manar",
+        description: <>Studied Computer engineering.</>,
       },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
-      },
+
     ],
   },
-  technical: {
-    display: true, // set to false to hide this section
-    title: "Technical skills",
-    skills: [
-      {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
-      {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
-    ],
-  },
+  // technical: {
+  //   display: true, // set to false to hide this section
+  //   title: "Technical skills",
+  //   skills: [
+  //     {
+  //       title: "Figma",
+  //       description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+  //       // optional: leave the array empty if you don't want to display images
+  //       images: [
+  //         {
+  //           src: "/images/projects/project-01/cover-02.jpg",
+  //           alt: "Project image",
+  //           width: 16,
+  //           height: 9,
+  //         },
+  //         {
+  //           src: "/images/projects/project-01/cover-03.jpg",
+  //           alt: "Project image",
+  //           width: 16,
+  //           height: 9,
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       title: "Next.js",
+  //       description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+  //       // optional: leave the array empty if you don't want to display images
+  //       images: [
+  //         {
+  //           src: "/images/projects/project-01/cover-04.jpg",
+  //           alt: "Project image",
+  //           width: 16,
+  //           height: 9,
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // },
 };
 
 const blog = {
   path: "/blog",
   label: "Blog",
-  title: "Writing about design and tech...",
+  title: "Writing about everything & nothing",
   description: `Read what ${person.name} has been up to recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
   // All posts will be listed on the /blog route
@@ -214,55 +243,55 @@ const work = {
   // All projects will be listed on the /home and /work routes
 };
 
-const gallery = {
-  path: "/gallery",
-  label: "Gallery",
-  title: `Photo gallery – ${person.name}`,
-  description: `A photo collection by ${person.name}`,
-  // Images by https://lorant.one
-  // These are placeholder images, replace with your own
-  images: [
-    {
-      src: "/images/gallery/horizontal-1.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/horizontal-2.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/horizontal-3.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/horizontal-4.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/vertical-1.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/vertical-2.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/vertical-3.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/vertical-4.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-  ],
-};
+// const gallery = {
+//   path: "/gallery",
+//   label: "Gallery",
+//   title: `Photo gallery – ${person.name}`,
+//   description: `A photo collection by ${person.name}`,
+//   // Images by https://lorant.one
+//   // These are placeholder images, replace with your own
+//   images: [
+//     {
+//       src: "/images/gallery/horizontal-1.jpg",
+//       alt: "image",
+//       orientation: "horizontal",
+//     },
+//     {
+//       src: "/images/gallery/horizontal-2.jpg",
+//       alt: "image",
+//       orientation: "horizontal",
+//     },
+//     {
+//       src: "/images/gallery/horizontal-3.jpg",
+//       alt: "image",
+//       orientation: "horizontal",
+//     },
+//     {
+//       src: "/images/gallery/horizontal-4.jpg",
+//       alt: "image",
+//       orientation: "horizontal",
+//     },
+//     {
+//       src: "/images/gallery/vertical-1.jpg",
+//       alt: "image",
+//       orientation: "vertical",
+//     },
+//     {
+//       src: "/images/gallery/vertical-2.jpg",
+//       alt: "image",
+//       orientation: "vertical",
+//     },
+//     {
+//       src: "/images/gallery/vertical-3.jpg",
+//       alt: "image",
+//       orientation: "vertical",
+//     },
+//     {
+//       src: "/images/gallery/vertical-4.jpg",
+//       alt: "image",
+//       orientation: "vertical",
+//     },
+//   ],
+// };
 
-export { person, social, newsletter, home, about, blog, work, gallery };
+export { person, social, newsletter, home, about, blog, work };
