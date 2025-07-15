@@ -37,7 +37,16 @@ export default function About() {
     {
       title: about.work.title,
       display: about.work.display,
-      items: about.work.experiences.map((experience) => experience.company),
+      items: about.work.experiences.map((experience) => {
+        // Extract text content from JSX elements
+        if (React.isValidElement(experience.company)) {
+          const props = experience.company.props as any;
+          return props.children || "Company";
+        }
+        return typeof experience.company === "string"
+          ? experience.company
+          : "Company";
+      }),
     },
     {
       title: about.studies.title,
@@ -220,7 +229,15 @@ export default function About() {
                       vertical="end"
                       marginBottom="4"
                     >
-                      <Text id={experience.company} variant="heading-strong-l">
+                      <Text
+                        id={
+                          React.isValidElement(experience.company)
+                            ? (experience.company.props as any).children ||
+                              "company"
+                            : experience.company
+                        }
+                        variant="heading-strong-l"
+                      >
                         {experience.company}
                       </Text>
                       <Text
