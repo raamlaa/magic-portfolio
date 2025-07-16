@@ -194,30 +194,42 @@ Media Kit, and the Highlighted Creators module.
       },
 
       {
-    company: (
-      <a href="https://www.linkedin.com/company/etijah-coaching-consulting" target="_blank" rel="noopener noreferrer">
-        Etijah Coaching & Consulting Services
-      </a>
-    ),
-    timeframe: "05/2024 - 07/2024",
-    role: "IT Project Coordinator",
-    achievements: [
-      <>
-        Supported daily operations of generative AI-based projects, including bootcamps and hackathons.
-      </>,
-      <>
-        Revamped educational materials and designed new problem statements for innovation-driven hackathons.
-      </>,
-    ],
-    images: [
-      {
-        src: "/images/gallery/etijah-ai-hackathon.jpg",
-        alt: "Etijah AI Hackathon",
-        width: 16,
-        height: 9,
-      },
-    ],
+  company: (
+    <a href="https://www.linkedin.com/company/etijah-coaching-consulting" target="_blank" rel="noopener noreferrer">
+      Etijah Coaching & Consulting Services
+    </a>
+  ),
+  timeframe: "05/2024 - 07/2024",
+  role: "IT Project Coordinator",
+  achievements: [
+    <>
+      Supported daily operations of generative AI-based projects, including bootcamps and hackathons.
+    </>,
+    <>
+      Revamped educational materials and designed new problem statements for innovation-driven hackathons.
+    </>,
+  ],
+
+},
+{
+  company: (
+    <a href="https://www.facebook.com/TGTunisia" target="_blank" rel="noopener noreferrer">
+      TGTV - Tunisian Gamers TV
+    </a>
+  ),
+  timeframe: "12/2021 - 10/2022",
+  role: "Community Manager",
+  achievements: [
+    <>
+      Developed a content strategy that lifted traffic by 30% within two weeks by addressing copyright challenges.
+    </>,
+    <>
+      Rebranded the platform’s visual identity and produced multimedia content to promote Tunisian e-sports talent.
+    </>,
+  ],
+
 }
+
 
     ],
   },
