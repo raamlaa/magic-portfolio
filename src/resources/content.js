@@ -18,7 +18,7 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      🎮 Gaming YouTuber | 🚀 Project Manager @ TAWA | 👩‍💻 Creative Technologist
+      🎮 Gaming YouTuber | 🚀 Project Manager @ TAWA | 👩‍💻 Creative Technologist<br />
       Hey, Im Ramla. A storyteller, strategist, and builder at the intersection of tech and creativity.
 
     </>
@@ -87,7 +87,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-      🎮 Gaming YouTuber | 🚀 Project Manager @ TAWA | 👩‍💻 Creative Technologist
+      🎮 Gaming YouTuber | 🚀 Project Manager @ TAWA | 👩‍💻 Creative Technologist<br />
       Hey, Im Ramla. A storyteller, strategist, and builder at the intersection of tech and creativity.<br />
       <br />
       Total experience: ~4 years<br />
