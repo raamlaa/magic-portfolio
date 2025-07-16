@@ -88,7 +88,11 @@ const about = {
     description: (
       <>
       🎮 Gaming YouTuber | 🚀 Project Manager @ TAWA | 👩‍💻 Creative Technologist
-      Hey, Im Ramla. A storyteller, strategist, and builder at the intersection of tech and creativity.
+      Hey, Im Ramla. A storyteller, strategist, and builder at the intersection of tech and creativity.<br />
+      <br />
+      Total experience: ~4 years<br />
+        – 2 years of professional experience (Project Manager, Content Lead, etc.)<br />
+        – 2 years in marketing and content creation through extracurricular activities
       </>
     ),
   },
