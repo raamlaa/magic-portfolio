@@ -96,36 +96,7 @@ const about = {
     display: true, // set to false to hide this section
     title: "Work Experience",
     experiences: [
-      {
-        company: (
-          <a href="https://www.youtube.com/@KoussayBiz" target="_blank" rel="noopener noreferrer">
-            KoussayBiz
-          </a>
-        ),
-        timeframe: "06/2025 - 07/2025",
-        role: "Content Lead",
-        achievements: [
-          <>
-            Turned raw ideas, scripts, and footage into high-performing, platform-native content. I lead Short and Long content strategy, organize creator assets, pitch concepts and series And write hooks and captions.
-          </>,
-          <>
-            Guided the editorial flow from ideation to publishing all while aligning with the creator’s voice and growth goals.
-          </>,
-        ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          // {
-          //   // src: "/images/projects/project-01/cover-01.jpg",
-          //   // alt: "Once UI Project",
-          //   // width: 16,
-          //   // height: 9,
-          // },
-        ],
-      },
-
-
-
-      {
+            {
         company: (
           <a href="https://www.tawa.digital" target="_blank" rel="noopener noreferrer">
             TAWA Digital Talents
@@ -154,6 +125,49 @@ Media Kit, and the Highlighted Creators module.
       },
       {
         company: (
+          <a href="https://www.youtube.com/@KoussayBiz" target="_blank" rel="noopener noreferrer">
+            KoussayBiz
+          </a>
+        ),
+        timeframe: "06/2025 - 07/2025",
+        role: "Content Lead",
+        achievements: [
+          <>
+            Turned raw ideas, scripts, and footage into high-performing, platform-native content. I lead Short and Long content strategy, organize creator assets, pitch concepts and series And write hooks and captions.
+          </>,
+          <>
+            Guided the editorial flow from ideation to publishing all while aligning with the creator’s voice and growth goals.
+          </>,
+        ],
+        images: [
+          // optional: leave the array empty if you don't want to display images
+          {
+            src:"/images/gallery/KoussayBiz.png",
+            alt: "KoussayBiz Project",
+            width: 16,
+            height: 9,
+          },
+                    {
+            src:"/images/gallery/Koussaybiz-badhabits.png",
+            alt: "KoussayBiz Project",
+            width: 16,
+            height: 9,
+          },
+                    
+          {
+            src:"/images/gallery/Bali 1.png",
+            alt: "KoussayBiz Project",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+
+
+
+
+      {
+        company: (
           <a href="https://www.youtube.com/@aburob" target="_blank" rel="noopener noreferrer">
             Aburob's Productions
           </a>
@@ -162,16 +176,49 @@ Media Kit, and the Highlighted Creators module.
         role: "Content Researcher",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Collaborated directly with YouTuber Ahmad Aburob to research and enrich content strategies, increasing viewer engagement.
+
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Managed pre-travel experience research and coordinated media access for the production team in multiple countries.
           </>,
         ],
-        images: [],
+        images: [
+          {
+            src: "/images/gallery/aburob-lie.jpg",
+            alt: "Aburob - Lie Detector",
+            width: 16,
+            height: 9,
+          },
+        ],
       },
+
+      {
+    company: (
+      <a href="https://www.linkedin.com/company/etijah-coaching-consulting" target="_blank" rel="noopener noreferrer">
+        Etijah Coaching & Consulting Services
+      </a>
+    ),
+    timeframe: "05/2024 - 07/2024",
+    role: "IT Project Coordinator",
+    achievements: [
+      <>
+        Supported daily operations of generative AI-based projects, including bootcamps and hackathons.
+      </>,
+      <>
+        Revamped educational materials and designed new problem statements for innovation-driven hackathons.
+      </>,
+    ],
+    images: [
+      {
+        src: "/images/gallery/etijah-ai-hackathon.jpg",
+        alt: "Etijah AI Hackathon",
+        width: 16,
+        height: 9,
+      },
+    ],
+}
+
     ],
   },
   studies: {
