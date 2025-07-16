@@ -102,7 +102,7 @@ const about = {
             KoussayBiz
           </a>
         ),
-        timeframe: "06/2025 - Present",
+        timeframe: "06/2025 - 07/2025",
         role: "Content Lead",
         achievements: [
           <>
